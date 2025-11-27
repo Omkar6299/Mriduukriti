@@ -1,0 +1,54 @@
+/.idea
+/.vscode
+/.fleet
+/.phpunit.result.cache
+/.env
+/.env.*
+/.DS_Store
+/Thumbs.db
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+/node_modules
+/vendor
+
+/public/hot
+/public/storage
+/public/build
+
+/storage/*.key
+/storage/app/public
+/storage/debugbar
+/storage/framework/cache/data
+/storage/framework/sessions
+/storage/framework/testing
+/storage/framework/views
+/storage/logs/*.log
+
+/bootstrap/cache/*.php
+
+# Laravel Vapor & Envoyer specific files
+.vapor/
+.env.backup
+.env.production
+
+# IDE helpers
+_ide_helper.php
+_ide_helper_models.php
+.phpstorm.meta.php
+
+# OS specific junk
+ehthumbs.db
+Icon?
+
+# Test artifacts
+coverage/
+reports/
+
+# Local build output
+/dist
+/build
